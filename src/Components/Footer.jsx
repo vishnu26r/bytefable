@@ -1,48 +1,59 @@
-import { Instagram, Mail } from "lucide-react";
+import { Instagram, Mail,Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1e293b] text-gray-300 py-10">
-      <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col md:flex-row justify-between items-center">
-        {/* Left Section */}
-        <div className="text-center md:text-left">
-          <h2 className="text-xl font-semibold text-white">ByteFable</h2>
-          <p className="text-sm mt-2 sm-text-center max-w-sm">
-            Your trusted partner for  Quality and innovation.
-         
-          <p className="text-sm mt-2">Services: Laptop Repair | Web Design | Logo Design | Poster Design | UI/UX Design</p>
-          <p className="text-sm mt-1">Projects: Hardware | Software | AI & ML</p>
-          </p>
+    <footer className="bg-slate-800 text-gray-300 py-12">
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h3 className="text-xl font-bold text-white mb-4">Tech Solutions</h3>
+          <p className="mb-4">Providing premium technical services and innovative solutions.</p>
         </div>
-        
-        {/* Navigation Links */}
-        <div className="flex gap-6 mt-6 md:mt-0">
-          <a href="#" className="hover:text-white transition duration-300">Home</a>
-          <a href="#" className="hover:text-white transition duration-300">Contact</a>
+        <div>
+          <h3 className="text-lg font-bold text-white mb-4">Services</h3>
+          <ul className="space-y-2">
+            <li>PC Repair & Optimization</li>
+            <li>Design Solutions</li>
+            <li>Software Development</li>
+            <li>Hardware Solutions</li>
+            <li>IT Consultation</li>
+            <li>Custom Projects</li>
+          </ul>
         </div>
-        
-        {/* Social Icons & Contact */}
-        <div className="flex flex-col gap-4 mt-6 md:mt-0 text-center md:text-left">
-          <div className="flex items-center gap-2">
-            <Instagram className="text-white w-6 h-6" />
-            <a href="https://www.instagram.com/your_instagram_id" target="_blank" rel="noopener noreferrer" className="hover:text-white transition duration-300">
-              @your_instagram_id
+        <div>
+          <h3 className="text-lg font-bold text-white mb-4">Contact</h3>
+          <ul className="space-y-2">
+            <li>123 Tech Street, Suite 456</li>
+            <li>San Francisco, CA 94103</li>
+            <li>contact@techsolutions.com</li>
+            <li>(555) 123-4567</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-lg font-bold text-white mb-4">Follow Us</h3>
+          <div className="flex space-x-4">
+            <a href="mailto:contact@techsolutions.com" className="text-gray-300 hover:text-white">
+              <Mail size={24} />
             </a>
-          </div>
-          <div className="flex items-center gap-2">
-            <Mail className="text-white w-6 h-6" />
-            <a href="mailto:bytefixers2024@gmail.com" className="hover:text-white transition duration-300">
-              bytefixers2024@gmail.com
+            <a href="#" className="text-gray-300 hover:text-white">
+              <Instagram size={24} />
+            </a>
+            
+            <a href="#" className="text-gray-300 hover:text-white">
+              <Linkedin size={24}/>
             </a>
           </div>
         </div>
       </div>
       
-      {/* Copyright */}
-      <div className="text-center text-sm text-gray-400 mt-6 border-t border-gray-600 pt-4">
-        &copy; {new Date().getFullYear()} ByteFable. All rights reserved.
+      <div className="mt-10 ">
+        <hr />
       </div>
-    </footer>
+      <div className="border-t border-gray-800 mb-8 pt-8 text-center">
+        <p>&copy; 2025 Tech Solutions. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
   );
 };
 

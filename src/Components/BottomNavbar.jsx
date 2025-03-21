@@ -12,15 +12,20 @@ const BottomNavbar = () => {
     <>
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-slate-800 shadow-lg z-50">
         <div className="flex justify-around h-16">
-          <a href="#" className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700">
+          <a href="home" className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700">
             <Home className="h-6 w-6" />
             <span className="text-xs mt-1">Home</span>
           </a>
           
           
-          <a href="#" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
+          <a href="contact" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
             <Phone className="h-6 w-6" />
             <span className="text-xs mt-1">Contact</span>
+          </a>
+
+          <a href="about" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
+            <Info className="h-6 w-6" />
+            <span className="text-xs mt-1">About</span>
           </a>
           
           

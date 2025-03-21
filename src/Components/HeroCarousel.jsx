@@ -20,7 +20,7 @@ const HeroCarousel = () => {
   }, [images.length]);
 
   return (
-    <div className="relative w-full h-screen max-h-[600px] overflow-hidden">
+    <div id='home' className="relative w-full h-screen max-h-[600px] overflow-hidden">
       {/* Image carousel */}
       <div className="relative w-full h-full">
         {images.map((image, index) => (
