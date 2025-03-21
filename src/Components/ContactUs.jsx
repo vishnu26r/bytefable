@@ -40,7 +40,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gray-900 text-white px-4 py-12 flex justify-center items-center">
+    <div  className="w-full min-h-screen bg-gray-900 text-white px-4 py-12 flex justify-center items-center">
       <div className="max-w-4xl w-full bg-gray-800 p-8 rounded-xl shadow-xl transition-all hover:shadow-2xl">
         <h1 className="text-4xl font-bold text-center bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text mb-6">Contact Us</h1>
         
