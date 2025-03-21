@@ -17,14 +17,11 @@ const BottomNavbar = () => {
             <span className="text-xs mt-1">Home</span>
           </a>
           
-          <button 
-            onClick={toggleServicesModal}
-            className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700"
-          >
-            <Wrench className="h-6 w-6" />
-            <span className="text-xs mt-1">Services</span>
-          </button>
           
+          <a href="#" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
+            <Phone className="h-6 w-6" />
+            <span className="text-xs mt-1">Contact</span>
+          </a>
           
           
           <a href="#" className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700">
@@ -32,10 +29,7 @@ const BottomNavbar = () => {
             <span className="text-xs mt-1">Account</span>
           </a>
           
-          <a href="#" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
-            <Phone className="h-6 w-6" />
-            <span className="text-xs mt-1">Contact</span>
-          </a>
+          
         </div>
       </div>
       

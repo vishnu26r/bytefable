@@ -137,12 +137,7 @@ const ServicesSection = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <a
-            href="#"
-            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-300"
-          >
-            View All Services
-          </a>
+         
         </div>
       </div>
 

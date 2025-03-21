@@ -23,7 +23,7 @@ const Navbar = () => {
             {/* Logo and brand name */}
             <div className="flex-shrink-0 flex items-center">
               <Laptop className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">StudentTechHub</span>
+              <span className="ml-2 text-xl font-bold">ByteFable</span>
             </div>
             
             {/* Desktop navigation */}
@@ -33,26 +33,7 @@ const Navbar = () => {
                 Home
               </a>
               
-              {/* Services dropdown */}
-              <div className="relative">
-                <button 
-                  onClick={toggleServicesDropdown}
-                  className="px-3 py-2 rounded-md text-sm font-medium hover:bg-slate-700 flex items-center"
-                >
-                  <Wrench className="h-4 w-4 mr-1" />
-                  Services
-                </button>
-                
-                {showServicesDropdown && (
-                  <div className="absolute right-0 mt-2 w-48 bg-slate-700 rounded-md shadow-lg z-10">
-                    <a href="#" className="block px-4 py-2 text-sm hover:bg-slate-600">Project Help</a>
-                    <a href="#" className="block px-4 py-2 text-sm hover:bg-slate-600">Laptop Repair</a>
-                    <a href="#" className="block px-4 py-2 text-sm hover:bg-slate-600">Poster Design</a>
-                    <a href="#" className="block px-4 py-2 text-sm hover:bg-slate-600">Logo Design</a>
-                    <a href="#" className="block px-4 py-2 text-sm hover:bg-slate-600">UI/UX Design</a>
-                  </div>
-                )}
-              </div>
+              
               
               <a href="#" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-slate-700 flex items-center">
                 <Info className="h-4 w-4 mr-1" />

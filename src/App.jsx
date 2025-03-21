@@ -4,6 +4,7 @@ import BottomNavbar from "./Components/BottomNavbar";
 import HeroCarousel from "./Components/HeroCarousel";
 import ContactUs from "./Components/ContactUs";
 import ServicesSection from "./Components/ServicesSection";
+import Footer from "./Components/Footer";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/services" element={<ServicesSection />} />
       </Routes>
+      <Footer/>
       <BottomNavbar />
     </BrowserRouter>
   );
