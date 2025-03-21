@@ -40,7 +40,7 @@ const Footer = () => {
       
       {/* Copyright */}
       <div className="text-center text-sm text-gray-400 mt-6 border-t border-gray-600 pt-4">
-        &copy; {new Date().getFullYear()} ByteFixers. All rights reserved.
+        &copy; {new Date().getFullYear()} ByteFable. All rights reserved.
       </div>
     </footer>
   );
