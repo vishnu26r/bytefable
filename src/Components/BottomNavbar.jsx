@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Home, Wrench, Info, User, Phone } from 'lucide-react';
+import { Link } from "react-router-dom";
+
 
 const BottomNavbar = () => {
   const [showServicesModal, setShowServicesModal] = useState(false);
@@ -12,27 +14,27 @@ const BottomNavbar = () => {
     <>
       <div className="md:hidden fixed bottom-0 left-0 right-0 bg-slate-800 shadow-lg z-50">
         <div className="flex justify-around h-16">
-          <a href="home" className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700">
+          <Link to="/home" className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700">
             <Home className="h-6 w-6" />
             <span className="text-xs mt-1">Home</span>
-          </a>
+            </Link>
           
           
-          <a href="contact" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
+          <Link to="/contact" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
             <Phone className="h-6 w-6" />
             <span className="text-xs mt-1">Contact</span>
-          </a>
+            </Link>
 
-          <a href="about" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
+          <Link to="about" className="flex flex-col items-center justify-center w-full text-blue-400 hover:text-blue-300 hover:bg-slate-700">
             <Info className="h-6 w-6" />
             <span className="text-xs mt-1">About</span>
-          </a>
+            </Link>
           
           
-          <a href="#" className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700">
+          <Link to="" className="flex flex-col items-center justify-center w-full text-gray-300 hover:text-white hover:bg-slate-700">
             <User className="h-6 w-6" />
             <span className="text-xs mt-1">Account</span>
-          </a>
+            </Link>
           
           
         </div>
