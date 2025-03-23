@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import BottomNavbar from "./Components/BottomNavbar";
 import HeroCarousel from "./Components/HeroCarousel";
@@ -21,12 +21,14 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        {/* Redirect "/" to "/home" */}
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/services" element={<ServicesSection />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
-      <Footer/>
+      <Footer />
       <BottomNavbar />
     </BrowserRouter>
   );
