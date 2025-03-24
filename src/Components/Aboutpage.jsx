@@ -27,7 +27,7 @@ const AboutPage = () => {
           </div>
           <div className="rounded-lg shadow-xl overflow-hidden">
             <img 
-              src="/api/placeholder/600/400" 
+              src="/ByteBGrem.png" 
               alt="Our workspace" 
               className="w-full h-full object-cover"
             />

@@ -6,6 +6,7 @@ import ContactUs from "./Components/ContactUs";
 import ServicesSection from "./Components/ServicesSection";
 import Footer from "./Components/Footer";
 import AboutPage from "./Components/Aboutpage";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop /> 
       <Navbar />
       <Routes>
         {/* Redirect "/" to "/home" */}
