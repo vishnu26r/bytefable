@@ -35,7 +35,7 @@ const Footer = () => {
             <a href="mailto:contact@techsolutions.com" className="text-gray-300 hover:text-white">
               <Mail size={24} />
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a href="https://www.instagram.com/bytefable.tech?igsh=MWhmOW5jcXB0Z2xxNQ=="  target="_blank" className="text-gray-300 hover:text-white">
               <Instagram size={24} />
             </a>
             
