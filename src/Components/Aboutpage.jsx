@@ -25,11 +25,11 @@ const AboutPage = () => {
               Our approach combines technical proficiency with personalized service, ensuring that each client receives solutions tailored to their specific needs and goals. We pride ourselves on staying ahead of the technological curve, continuously updating our skills and knowledge to deliver cutting-edge services.
             </p>
           </div>
-          <div className="rounded-lg shadow-xl overflow-hidden">
+          <div className="rounded-lg  shadow-xl overflow-hidden">
             <img 
               src="/ByteBGrem.png" 
               alt="Our workspace" 
-              className="w-full h-full object-cover"
+              className="w-full h-full  object-cover"
             />
           </div>
         </div>

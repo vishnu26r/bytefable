@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="flex justify-between h-16">
             {/* Logo and brand name */}
             <div className="flex-shrink-0 flex items-center">
-              <Laptop className="h-8 w-8 text-blue-400" />
+              {/* <img className="h-16 w-16 text-blue-400" src="/ByteBGrem.png" alt="" /> */}
               <span className="ml-2 text-xl font-bold">ByteFable</span>
             </div>
             
