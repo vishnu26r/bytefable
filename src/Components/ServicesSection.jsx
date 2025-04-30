@@ -10,7 +10,7 @@ const ServicesSection = () => {
       title: 'Laptop Service',
       description: 'Professional laptop repair, maintenance and upgrade services to keep your device running smoothly.',
       details: 'Our comprehensive laptop service includes diagnostics, hardware repairs, component upgrades, screen replacements, keyboard replacements, battery replacements, and performance optimization. We work with all major brands including Dell, HP, Lenovo, Apple, Asus, and more. Our certified technicians use only high-quality replacement parts to ensure the longevity of your device.',
-      image: '/ByteBGrem.png', // Add your image path
+      image: '/laptop service.jpg', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -22,7 +22,7 @@ const ServicesSection = () => {
       title: 'Operating Systems',
       description: 'Expert installation and configuration of Windows and Linux operating systems tailored to your needs.',
       details: 'We provide professional installation, configuration, and optimization of various operating systems including Windows 10/11 and Linux distributions (Ubuntu, Fedora, Debian, CentOS, etc.). Our services include clean installations, system migrations, dual-boot setups, virtual machine configurations, system hardening for security, performance tuning, and driver installations for maximum compatibility with your hardware.',
-      image: '/images/operating-systems.jpg', // Add your image path
+      image: '/os.jpg', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -34,7 +34,7 @@ const ServicesSection = () => {
       title: 'Software Projects',
       description: 'Custom software development solutions built with the latest technologies to solve your business challenges.',
       details: 'Our software development team creates bespoke applications tailored to your specific business needs. We specialize in web applications, mobile apps, desktop software, e-commerce platforms, content management systems, and enterprise solutions. Our development stack includes React, Angular, Vue.js, Node.js, Python, Java, and .NET. We follow agile methodologies to ensure timely delivery and continuous improvement of your software products.',
-      image: '/images/software-projects.jpg', // Add your image path
+      image: '/software.jpg', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
@@ -46,7 +46,7 @@ const ServicesSection = () => {
       title: 'Hardware Projects',
       description: 'Innovative hardware solutions and prototypes designed and built to match your specifications.',
       details: 'We design and build custom hardware solutions including embedded systems, IoT devices, sensor networks, automation systems, robotics projects, and electronic prototypes. Our team has expertise in microcontrollers (Arduino, Raspberry Pi, ESP32), PCB design, 3D printing, and systems integration. We can take your hardware project from concept through prototyping to final production-ready designs.',
-      image: '/images/hardware-projects.jpg', // Add your image path
+      image: '/hardware.jpg', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -58,7 +58,7 @@ const ServicesSection = () => {
       title: 'Design Services',
       description: 'Professional logo design, poster creation, and UI/UX design services to elevate your brand.',
       details: 'Our design team delivers professional visual assets including brand identity (logos, color schemes, typography), marketing materials (posters, flyers, brochures), UI/UX design for web and mobile applications, packaging design, social media graphics, and digital illustrations. We focus on creating designs that are not only visually appealing but also strategically aligned with your business goals and target audience preferences.',
-      image: '/images/design-services.jpg', // Add your image path
+      image: '/designs.jpg', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -70,7 +70,7 @@ const ServicesSection = () => {
       title: 'AI & ML Projects',
       description: 'Cutting-edge artificial intelligence and machine learning solutions for intelligent business applications.',
       details: 'We develop advanced AI and ML solutions including predictive analytics, natural language processing, computer vision systems, recommendation engines, chatbots, and data mining applications. Our team utilizes technologies such as TensorFlow, PyTorch, scikit-learn, and cloud-based AI services to create intelligent systems that can automate processes, extract insights from your data, and provide competitive advantages for your business.',
-      image: '/images/ai-ml-projects.jpg', // Add your image path
+      image: '/aiml.jpg', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />

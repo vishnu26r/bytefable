@@ -148,7 +148,7 @@ const AboutPage = () => {
             {/* Team Member 1 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/api/placeholder/400/300" 
+                src="/ByteBGrem.png" 
                 alt="Team member" 
                 className="w-full h-64 object-cover"
               />
@@ -164,13 +164,13 @@ const AboutPage = () => {
             {/* Team Member 2 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/api/placeholder/400/300" 
+                src="/ByteBGrem.png"
                 alt="Team member" 
                 className="w-full h-64 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-1">Vishnuvel</h3>
-                <p className="text-indigo-600 font-medium mb-4">Design Lead</p>
+                <p className="text-indigo-600 font-medium mb-4">Design Lead & Web Development</p>
                 <p className="text-gray-700">
                   Vishnu brings creative vision and UX expertise to ensure our designs are both beautiful and functional.
                 </p>
@@ -180,7 +180,7 @@ const AboutPage = () => {
             {/* Team Member 3 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/api/placeholder/400/300" 
+                src="/ByteBGrem.png" 
                 alt="Team member" 
                 className="w-full h-64 object-cover"
               />
