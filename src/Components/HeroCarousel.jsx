@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const HeroCarousel = () => {
   // Sample images - replace with your actual image URLs
   const images = [
-    '/slide1.jpg',
+    '/slide1.webp',
     '/slide2.jpg',
     '/slide3.jpg',
   ];

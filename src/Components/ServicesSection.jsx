@@ -58,7 +58,7 @@ const ServicesSection = () => {
       title: 'Design Services',
       description: 'Professional logo design, poster creation, and UI/UX design services to elevate your brand.',
       details: 'Our design team delivers professional visual assets including brand identity (logos, color schemes, typography), marketing materials (posters, flyers, brochures), UI/UX design for web and mobile applications, packaging design, social media graphics, and digital illustrations. We focus on creating designs that are not only visually appealing but also strategically aligned with your business goals and target audience preferences.',
-      image: '/designs.jpg', // Add your image path
+      image: '/designs.webp', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -70,7 +70,7 @@ const ServicesSection = () => {
       title: 'AI & ML Projects',
       description: 'Cutting-edge artificial intelligence and machine learning solutions for intelligent business applications.',
       details: 'We develop advanced AI and ML solutions including predictive analytics, natural language processing, computer vision systems, recommendation engines, chatbots, and data mining applications. Our team utilizes technologies such as TensorFlow, PyTorch, scikit-learn, and cloud-based AI services to create intelligent systems that can automate processes, extract insights from your data, and provide competitive advantages for your business.',
-      image: '/aiml.jpg', // Add your image path
+      image: '/aiml.webp', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
