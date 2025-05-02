@@ -23,10 +23,13 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-bold text-white mb-4">Contact</h3>
           <ul className="space-y-2">
-            <li>123 Tech Street, Suite 456</li>
-            <li>San Francisco, CA 94103</li>
-            <li>contact@techsolutions.com</li>
-            <li>(555) 123-4567</li>
+            <a href="mailto:contact@techsolutions.com"><li> bytefixers2024@gmail.com</li></a>
+            <div className="flex gap-3">
+            <a href="https://www.instagram.com/bytefable.tech?igsh=MWhmOW5jcXB0Z2xxNQ=="  target="_blank" className="text-gray-300 hover:text-white">
+              <Instagram size={24} />
+            </a>
+            <li>bytefable.tech</li>
+            </div>
           </ul>
         </div>
         <div>
