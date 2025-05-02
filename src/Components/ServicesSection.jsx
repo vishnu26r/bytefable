@@ -10,7 +10,7 @@ const ServicesSection = () => {
       title: 'Laptop Service',
       description: 'Professional laptop repair, maintenance and upgrade services to keep your device running smoothly.',
       details: 'Our comprehensive laptop service includes diagnostics, hardware repairs, component upgrades, screen replacements, keyboard replacements, battery replacements, and performance optimization. We work with all major brands including Dell, HP, Lenovo, Apple, Asus, and more. Our certified technicians use only high-quality replacement parts to ensure the longevity of your device.',
-      image: '/laptop service.jpg', // Add your image path
+      image: '/laptop service.webp', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -22,7 +22,7 @@ const ServicesSection = () => {
       title: 'Operating Systems',
       description: 'Expert installation and configuration of Windows and Linux operating systems tailored to your needs.',
       details: 'We provide professional installation, configuration, and optimization of various operating systems including Windows 10/11 and Linux distributions (Ubuntu, Fedora, Debian, CentOS, etc.). Our services include clean installations, system migrations, dual-boot setups, virtual machine configurations, system hardening for security, performance tuning, and driver installations for maximum compatibility with your hardware.',
-      image: '/os.jpg', // Add your image path
+      image: '/os.webp', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -34,7 +34,7 @@ const ServicesSection = () => {
       title: 'Software Projects',
       description: 'Custom software development solutions built with the latest technologies to solve your business challenges.',
       details: 'Our software development team creates bespoke applications tailored to your specific business needs. We specialize in web applications, mobile apps, desktop software, e-commerce platforms, content management systems, and enterprise solutions. Our development stack includes React, Angular, Vue.js, Node.js, Python, Java, and .NET. We follow agile methodologies to ensure timely delivery and continuous improvement of your software products.',
-      image: '/software.jpg', // Add your image path
+      image: '/software.webp', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
@@ -46,7 +46,7 @@ const ServicesSection = () => {
       title: 'Hardware Projects',
       description: 'Innovative hardware solutions and prototypes designed and built to match your specifications.',
       details: 'We design and build custom hardware solutions including embedded systems, IoT devices, sensor networks, automation systems, robotics projects, and electronic prototypes. Our team has expertise in microcontrollers (Arduino, Raspberry Pi, ESP32), PCB design, 3D printing, and systems integration. We can take your hardware project from concept through prototyping to final production-ready designs.',
-      image: '/hardware.jpg', // Add your image path
+      image: '/hardware.webp', // Add your image path
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 mb-4 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />

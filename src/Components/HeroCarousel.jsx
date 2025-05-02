@@ -4,8 +4,8 @@ const HeroCarousel = () => {
   // Sample images - replace with your actual image URLs
   const images = [
     '/slide1.webp',
-    '/slide2.jpg',
-    '/slide3.jpg',
+    '/slide2.webp',
+    '/slide3.webp',
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
