@@ -1,96 +1,55 @@
-import React, { useState } from 'react';
-import { Menu, X, Laptop, Wrench, Home, Info, Phone, Mail, Settings, LogOut } from 'lucide-react';
+import React, { useEffect } from 'react';
+import { Home, Info, Phone } from 'lucide-react';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [isSlidePanelOpen, setIsSlidePanelOpen] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const nav = document.querySelector("nav");
+      if (window.scrollY > 50) {
+        nav.classList.add("bg-slate-900/90", "shadow-xl");
+      } else {
+        nav.classList.remove("bg-slate-900/90", "shadow-xl");
+      }
+    };
 
-  const toggleSlidePanel = () => {
-    setIsSlidePanelOpen(!isSlidePanelOpen);
-  };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
-      <nav className="bg-slate-800 text-white shadow-lg">
+      <nav className="fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur-md bg-slate-800/70 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
-            {/* Logo and brand name */}
-            <div className="flex-shrink-0 gap-4 flex items-center">
-               <img className="h-14 w-16 text-blue-400" src="/ByteBGrem.png" alt="" /> 
-              <span className="ml-2 text-xl font-bold">ByteFable</span>
+          <div className="flex justify-between h-16 items-center">
+            {/* Logo and Brand */}
+            <div className="flex-shrink-0 flex items-center gap-3">
+              <img className="h-12 w-12" src="/ByteBGrem.png" alt="ByteFable Logo" />
+              <span className="text-xl font-extrabold bg-gradient-to-r from-blue-200 via-blue-300 to-blue-400 bg-clip-text text-transparent">
+                  Byte Fable
+              </span>
             </div>
-            
-            {/* Desktop navigation */}
+
+            {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-4">
-              <Link to="/home" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-slate-700 flex items-center">
+              <Link to="/home" className="px-3 py-2 rounded-full text-sm font-medium hover:bg-blue-500/20 hover:text-blue-300 transition flex items-center">
                 <Home className="h-4 w-4 mr-1" />
                 Home
               </Link>
-              <Link to="/about" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-slate-700 flex items-center">
+              <Link to="/about" className="px-3 py-2 rounded-full text-sm font-medium hover:bg-blue-500/20 hover:text-blue-300 transition flex items-center">
                 <Info className="h-4 w-4 mr-1" />
                 About
               </Link>
-              <Link to="/contact" className="text-blue-600 hover:text-blue-800">Contact Us</Link>
-            </div>
-            
-            {/* Mobile menu button */}
-            <div className="md:hidden flex items-center">
-              <button 
-                onClick={toggleSlidePanel}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-slate-700 focus:outline-none"
-              >
-                <Menu className="h-6 w-6" />
-              </button>
+              <Link to="/contact" className="px-3 py-2 rounded-full text-sm font-medium hover:bg-blue-500/20 hover:text-blue-300 transition flex items-center">
+                <Phone className="h-4 w-4 mr-1" />
+                Contact
+              </Link>
             </div>
           </div>
         </div>
       </nav>
+
       
-      {/* Slide-in panel for mobile menu */}
-      <div className={`fixed inset-y-0 right-0 max-w-xs w-full bg-slate-900 shadow-xl transform ${isSlidePanelOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}>
-        <div className="p-6">
-          {/* Close button */}
-          <button 
-            onClick={toggleSlidePanel}
-            className="absolute top-4 right-4 text-gray-400 hover:text-white"
-          >
-            <X className="h-6 w-6" />
-          </button>
-          
-          {/* Mobile navigation links */}
-          <div className="space-y-4 mt-10">
-            <Link to="/home" className="block px-4 py-2 rounded-md text-white hover:bg-slate-700 flex items-center">
-              <Home className="h-5 w-5 mr-3 text-blue-400" />
-              Home
-            </Link>
-            <Link to="/about" className="block px-4 py-2 rounded-md text-white hover:bg-slate-700 flex items-center">
-              <Info className="h-5 w-5 mr-3 text-blue-400" />
-              About
-            </Link>
-            <Link to="/contact" className="block px-4 py-2 rounded-md text-white hover:bg-slate-700 flex items-center">
-              <Phone className="h-5 w-5 mr-3 text-blue-400" />
-              Contact
-            </Link>
-            <Link to="/services" className="block px-4 py-2 rounded-md text-white hover:bg-slate-700 flex items-center">
-              <Wrench className="h-5 w-5 mr-3 text-blue-400" />
-              Services
-            </Link>
-            
-            {/* Slogan at the bottom */}
-          <div className="mt-10 text-center text-gray-400 text-sm border-t border-slate-700 pt-4">
-            "Innovating Tomorrow, One Byte at a Time."
-          </div>
-          </div>
-        </div>
-      </div>
-      
-      {/* Overlay when slide panel is open */}
-      {isSlidePanelOpen && (
-        <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-40"
-          onClick={toggleSlidePanel}
-        ></div>
-      )}
     </>
   );
 };
