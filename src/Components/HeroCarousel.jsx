@@ -42,10 +42,10 @@ const HeroCarousel = () => {
       {/* Content overlay */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-4 bg-black bg-opacity-40">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4">
-          Your Headline Here
+        Designing the Future, One Byte at a Time!
         </h1>
         <p className="text-xl md:text-2xl text-center max-w-3xl mb-8">
-          Your compelling subheading that captures attention and explains your value proposition
+        Every Brand Has a Story — We Code Yours
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           
